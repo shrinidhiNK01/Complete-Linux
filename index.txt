@@ -1,0 +1,17 @@
+Linux is Open source OS like windows and macos
+free to use, customize, share
+known for speed, security, stability 
+free and no license cost
+secure and less affected by virus 
+fast performance, 
+Popular for programming ,servers,ethical hacking 
+WSL:= windows subsystem for linux 
+   := lets u run linux inside windows without installing it separately 
+   :=usefull for coding and using linux tools on windows 
+
+Ubuntu:- user friendly version/distribution of linux 
+      :- free, easy to use, beginner friendly
+      :- Popular for learning linux 
+
+1)install wsl:- wsl --install :- in Powershell administrator 
+2)install ubuntu:- microsoft store:- ubuntu latest version :- get (LTS:- lONG term support)
