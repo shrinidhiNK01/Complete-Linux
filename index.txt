@@ -15,3 +15,128 @@ Ubuntu:- user friendly version/distribution of linux
 
 1)install wsl:- wsl --install :- in Powershell administrator 
 2)install ubuntu:- microsoft store:- ubuntu latest version :- get (LTS:- lONG term support)
+
+
+Commonds:-
+=======================
+1)whoami  :- display name of current logged in user
+2)id
+3)passwd:- change the password
+4)groups :- See the multiple users accessing ur linux 
+5)ls :-  see ur folders and files     
+6)ls -la :- see all hidden files
+7)ls -a :- hidden items
+8)mkdir folder :- create folder 
+9)cd folder:- go inside the folder
+10)pwd :- present working director
+11)cd .. :- come out of that folder 
+12)touch file.txt :- make a file 
+13)mkdir -p js/react :- make folder inside non created folder and multiple sub folders 
+14)rm file.txt :- delete the file 
+15)rm -rf folder :- delete the folder   (-rf:- recursively forcefully)  
+16)cp file.txt folder_name/  :- copy a file from one folder to another folder  
+17)cp -r copyD folder_name/  :- copy a folder from one folder to another folder
+18)mv file.txt folder_name/  :- cut paste the file to folder   
+18)mv file_name folder_name/  :- cut paste the folder to folder   
+19)echo Hello> myfile :- write Hello inside myfile file 
+20)cat myfile :- show the content of myfile file 
+21)date :- check system date or time
+22)date +%D:- only date
+23)date +%T:- only time
+24)date +%H:- only hours
+25)date +%H:%M:- only hours and minutes
+26)ls -lt :- detailed version of files and folders 
+26)ls -ltr :- detailed version of files and folders with latest at the bottom (reverse sorting)
+26)ls -lh :- detailed version of files and folders with human readable format
+27)clear :- clean the linux terminal
+28)cat <file> :- display content of the file on terminal 
+29)less <file> next "/<word u want to search>" :- read a file and search for a word , click n to get next similar word , click "q" to come out 
+30)more <file> :- view content of a file page by page 
+31)vi file.txt = create a file and write something (edit with create file) ,click "i" to start editing, to comeout esc+ :wq
+32)nano file.txt = edit the existing file thats already created ,click "i" to start editing, to comeout esc+ :wq
+33)rmdir folder_name/ = delete the folder
+34)cd .. => 1 folder go back 
+35)cd ../.. => go 2 folders back 
+36)absolute path = the link that starts from root directory "\" eg:- cd \home\shri\newfolder 
+37)relative path = the link that starts from current directory to the destination eg:- cd newfolder/newfolder
+38)cp <file> /dest/path :- copy and paste a file from one folder to another in linux eg:- cp hello.txt newfolder/
+39)cp fileA fileB :- copy content of a file to another file in linux 
+
+File permissions and ownerships:-
+====================================
+1)ls -l :- permissisons
+2)chmod +x file.ext :- Execute the file 
+eg:- touch script.sh 
+     chmod +x script.sh 
+     ls -l 
+
+process Management :-
+============================
+1)ps aux  :- show running process 
+2)top :- interactive process viewer
+3)kill :- terminate a process by pid 
+4)jobs :- list background jobs 
+5)fg:- bring background job to foreground
+6)bg:- resume stopped job in background 
+
+Networking:-
+==========================
+1)ping ------Check network connectivity------------- -c (count packets)                   ping -c 4 google.com
+2)cur1 ------Transfer data from URL----------------- -I (headers only), -x (HTTPmethod)   curl -I https://example.com
+3)ssh  ------Remote login to another machine-------- -p (port), -i (identity file)        ssh user@host
+
+System Info and Management:-
+===============================
+1)uname -a  ---------Show kernel and system info--------None--------uname -a
+2)uptime    ---------Show system uptime and load--------None--------uptime
+3)systemct1 ---------Manage systemd services--start, stop, restart, enable,status---systemctl status nginx
+4)journalct1---------View systemd logs-------f (follow)-------------journalct1 -f
+
+Package Management:-
+=========================
+1)apt-get update------Update package list--------None------------------- sudo apt-get update
+2)apt-get install-----Install packages------------y (auto yes)---------- sudo apt-get install nginx-y
+3)apt-get upgrade-----Upgrade installed packages--None ----------------- sudo apt-get upgrade
+
+Archiving & Compressing:-
+================================
+
+1)tar -------Archive and compress files---- -c (create), -x (extract), -z (gzip),-v(verbose), -f (file)------tar -czvf
+2)zip -------Create zip archives----------- None
+3)unzip------Extract zip archives---------- None
+
+
+
+
+
+archive.tar.gz dir/
+
+zip archive.zip file1
+file2
+
+unzip archive.zip
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
